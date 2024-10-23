@@ -1,0 +1,81 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNB0zA5oC5WMfiM9EDAEe7N",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/mariesin96/Encapsulamiento/blob/main/ejercicio\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "class  Estudiante:\n",
+        "  def __init__(self,nombre):\n",
+        "        self.nombre = nombre\n",
+        "\n",
+        "\n",
+        "class curso:\n",
+        "\n",
+        "  def __init__(self,nombre):\n",
+        "       self.nombre = nombre\n",
+        "        #Lista de estudiantes,\n",
+        "         self.estudiantes = []\n",
+        "\n",
+        "  def agregar_estudiante(self,estudiante):\n",
+        "        self.estudiantes.append(estudiante)\n",
+        "\n",
+        "  def listar_estudiantrs(self):\n",
+        "      print(f\"cursor: {self.nombre}\")\n",
+        "      for estudiante in self.estudiantes:\n",
+        "        print(f\" - {estudiante.nombre}\")\n",
+        "\n",
+        "        #Crear estudiantes independientemente del Curso\n",
+        "        estudiante1 = Estudiante (\"juan\")\n",
+        "        estudiante2 = Estudiante (\"Ana\")\n",
+        "\n",
+        "        #crear un curso y Agregar estudiantes al curso\n",
+        "        cursso1 = curso(\"Matematicas\")\n",
+        "        curso.agregar_estudiante(estudiante1)\n",
+        "        curso.agregar_estudiante(estudiante1)\n",
+        "        curso.Lista_estudiantes()\n",
+        "\n",
+        "\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "tzXDOgSy56jQ"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# Sección nueva"
+      ],
+      "metadata": {
+        "id": "aeS5uPcU5wGl"
+      }
+    }
+  ]
+}
